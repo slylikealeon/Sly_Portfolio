@@ -49,7 +49,7 @@
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
-<p align="center">
+<p align="left">
 <a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" width="42" height="42"></a>
 <a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://i2.wp.com/outlawq8.com/blog/wp-content/uploads/2012/08/outlook_logo.jpg" width="42" height="42"></a>
 </p>
