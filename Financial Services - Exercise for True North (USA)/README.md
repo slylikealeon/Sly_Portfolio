@@ -37,10 +37,14 @@ Also SDG will provide the DataCapture 360 product, that will allow representativ
 Also Infinity Finance will provide Sky Lending with a list of selected borrowers to be called by a representative and complete the whole application over the phone.
 
 <h2> Deliverables Requested </h2>
-- &nbsp; Use Cases or Epics to be developed
-- &nbsp; Define API’s endpoints request/response payloads
-- &nbsp; Data Flow Diagram
-- &nbsp; User Stories to Develop the PI1 or PI2 pages
+- Use Cases or Epics to be developed
+
+- Define API’s endpoints request/response payloads
+
+- Data Flow Diagram
+
+- User Stories to Develop the PI1 or PI2 pages
+
 
 <h2> Important </h2>
 <a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">Link to the project's backlog in Jira</a>
