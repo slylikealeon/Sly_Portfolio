@@ -20,6 +20,7 @@
 
 
 <h4> 🔧 &nbsp;Tools & Technologies</h4>
+
 - &nbsp; JIRA.
 - &nbsp; Power BI.
 - &nbsp; MySQL.
@@ -28,6 +29,7 @@
 - &nbsp; Cypress.
 
 <h4> 🖥 &nbsp; Interpersonal Skills</h4>
+
 - &nbsp; Team Leadership
 - &nbsp; Stakeholder Management
 - &nbsp; Time Management
@@ -39,6 +41,7 @@
 - &nbsp; Decision-Making
 
 <h4> 🌐 &nbsp; Languages</h4>
+
 - &nbsp; Spanish - Native
 - &nbsp; English - Advance
 
@@ -47,8 +50,8 @@
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://image.similarpng.com/thumbnail/2020/07/Linkedin-logo-on-transparent-Background-PNG-.png"></a>
-<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://download.logo.wine/logo/Outlook.com/Outlook.com-Logo.wine.png"></a>
+<a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" width="42" height="42"></a>
+<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://download.logo.wine/logo/Outlook.com/Outlook.com-Logo.wine.png" width="42" height="42"></a>
 </p>
 
 <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/Mythe_15.png">
