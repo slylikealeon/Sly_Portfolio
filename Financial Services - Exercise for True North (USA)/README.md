@@ -50,6 +50,7 @@ Also Infinity Finance will provide Sky Lending with a list of selected borrowers
 <h2> Important </h2>
 <a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">Link to the project's backlog in Jira</a>
 
+
 User: userforjira@gmail.com
 
 Password: userforjira
@@ -67,14 +68,6 @@ The epics that I have been created were the following:
 - Representatives (those tickets related to representatives who call users to help them complete the loan application).
 
 - Endpoints (I divided this epic into 4 parts, depending on who to interact with)
-
--- (Endpoints) - Infinity Finance (for data validation)
-
--- (Endpoints) - Adobe Sign (for signing documents)
-
--- (Endpoints) - SDG Loan Decisioning Engine (to validate the client and get the available loan offers)
-
--- (Endpoints) - DataCapture 360 (to capture when a client leaves an application)
 
 
  You will be able to filter the tickets by epic through the Epic panel that is available in the <a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">project's backlog</a>.
