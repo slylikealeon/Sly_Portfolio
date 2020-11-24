@@ -51,7 +51,7 @@
 
 <p align="center">
 <a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" width="42" height="42"></a>
-<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://download.logo.wine/logo/Outlook.com/Outlook.com-Logo.wine.png" width="82" height="42"></a>
+<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://download.logo.wine/logo/Outlook.com/Outlook.com-Logo.wine.png" width="82" height="82"></a>
 </p>
 
 <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/Mythe_15.png">
