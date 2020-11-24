@@ -12,20 +12,20 @@
 <h4> 🛠 &nbsp;Industry Knowledge</h4>
 
 - &nbsp; Agile Methodologies.
-- &nbsp; User Experience
-- &nbsp; Business Intelligence
-- &nbsp; Agile Project Management
-- &nbsp; BDD Acceptance Criteria
-- &nbsp; Document Management
+- &nbsp; User Experience.
+- &nbsp; Business Intelligence.
+- &nbsp; Agile Project Management.
+- &nbsp; BDD Acceptance Criteria.
+- &nbsp; Document Management.
 
 
-<h4> 🔧 &nbsp; Tools & Technologies</h4>
-- &nbsp; JIRA
-- &nbsp; Power BI
-- &nbsp; MySQL
-- &nbsp; PostgreSQL
-- &nbsp; Adobe XD
-- &nbsp; Cypress
+<h4> 🔧 &nbsp;Tools & Technologies</h4>
+- &nbsp; JIRA.
+- &nbsp; Power BI.
+- &nbsp; MySQL.
+- &nbsp; PostgreSQL.
+- &nbsp; Adobe XD.
+- &nbsp; Cypress.
 
 <h4> 🖥 &nbsp; Interpersonal Skills</h4>
 - &nbsp; Team Leadership
@@ -47,8 +47,8 @@
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Aditya%20Vikram%20Singh-blue?style=flat-square&logo=linkedin"></a>
-<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-avsingh@umass.edu-blue?style=flat-square&logo=gmail"></a>
+<a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://image.similarpng.com/thumbnail/2020/07/Linkedin-logo-on-transparent-Background-PNG-.png"></a>
+<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://download.logo.wine/logo/Outlook.com/Outlook.com-Logo.wine.png"></a>
 </p>
 
 <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/Mythe_15.png">
