@@ -37,6 +37,7 @@ Also SDG will provide the DataCapture 360 product, that will allow representativ
 Also Infinity Finance will provide Sky Lending with a list of selected borrowers to be called by a representative and complete the whole application over the phone.
 
 <h2> Deliverables Requested </h2>
+
 - Use Cases or Epics to be developed
 
 - Define API’s endpoints request/response payloads
@@ -48,20 +49,33 @@ Also Infinity Finance will provide Sky Lending with a list of selected borrowers
 
 <h2> Important </h2>
 <a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">Link to the project's backlog in Jira</a>
+
 User: userforjira@gmail.com
+
 Password: userforjira
 
 <h2> Epics </h2>
+
 The epics that I have been created were the following:
-- &nbsp; Invitation (tickets related to the invitation link to the program).
-- &nbsp; Generate offer (including PI1 and PI2).
-- &nbsp; Loan offers.
-- &nbsp; Representatives (those tickets related to representatives who call users to help them complete the loan application).
-- &nbsp; Endpoints (I divided this epic into 4 parts, depending on who to interact with)
--- &nbsp; (Endpoints) - Infinity Finance (for data validation)
--- &nbsp; (Endpoints) - Adobe Sign (for signing documents)
--- &nbsp; (Endpoints) - SDG Loan Decisioning Engine (to validate the client and get the available loan offers)
--- &nbsp; (Endpoints) - DataCapture 360 (to capture when a client leaves an application)
+
+- Invitation (tickets related to the invitation link to the program).
+
+- Generate offer (including PI1 and PI2).
+
+- Loan offers.
+
+- Representatives (those tickets related to representatives who call users to help them complete the loan application).
+
+- Endpoints (I divided this epic into 4 parts, depending on who to interact with)
+
+-- (Endpoints) - Infinity Finance (for data validation)
+
+-- (Endpoints) - Adobe Sign (for signing documents)
+
+-- (Endpoints) - SDG Loan Decisioning Engine (to validate the client and get the available loan offers)
+
+-- (Endpoints) - DataCapture 360 (to capture when a client leaves an application)
+
 
  You will be able to filter the tickets by epic through the Epic panel that is available in the <a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">project's backlog</a>.
  
@@ -69,7 +83,9 @@ The epics that I have been created were the following:
 In the backlog you will find tickets that are called dependencies (it is a type of ticket that indicates that something needs to be developed or a decision is made in order to carry out a user story) and that will represent the different endpoints that are needed.
 
 There are 2 ways to filter and view these tickets:
+
 - Selecting the epics that were mentioned in the previous point.
+
 - Use the "Label" filter in the backlog.
 
 NOTE: Although there are all the titles of the endpoints that are needed, only the tickets that are within the "Sprint PI2" and "Representatives" were those that I had specified.
