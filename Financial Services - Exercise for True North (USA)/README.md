@@ -1,90 +1,137 @@
-<h1> Reach the Sky Challenge </h1>
+# 📘 Reach the Sky – Business Analyst Case Study
 
-<h2> Project Description </h2>
-Sky Lending LLC is a partner company of Infinity Finance LLC, an online fintech lending company that helps borrowers access fast, easy, and low-cost credit lines to pay for debts under a program
-called Debt Resolution Program. This program consists of a borrower that deposits a monthly sum into an FDIC-insured Dedicated Account, while Infinity Finance negotiates with creditors to lower the
-borrower’s debt amount. Once a creditor agrees to the lower amount, funds are withdrawn from the borrower’s FDIC-insured Dedicated Account.
-Sky Lending is launching the InProgram Loan (IPL) and has reached us to be their engineer partner and help them build their application funnel.
+**Role:** Senior Business Analyst  
+**Company:** Sky Lending LLC (Partner: Infinity Finance LLC)  
+**Industry:** Fintech – Debt Consolidation & Lending  
+**Scope:** Design of an end-to-end digital loan application funnel  
+**Key Deliverables:** Epics, BDD User Stories, API Specs, Data Flow Diagram, Sprint Structure  
 
-The goal of the Sky Lending’s IPL is to help their end-user, a borrower experiencing debt, to consolidate their debts and pay off those faster.
+---
 
-IPL works in conjunction with Infinity Lending’s Debt Resolution Program. The end-user must have first participated in this program for at least 6 months before receiving an invitation to apply for IPL.
+## 🧭 Project Overview
 
-Upon receiving the invitation, the borrower must complete the Sky Lending’s application process.
-While most applicants should be approved as they’ve already met the criteria of 6-month’s participation in Infinity Finance’s debt resolution program, they are still subject to Sky Lending’s credit
-policy and verification strategies. 
+Sky Lending launched the *InProgram Loan (IPL)* to help users consolidate debts faster after participating in Infinity Finance’s Debt Resolution Program. After 6+ months in the program, eligible borrowers receive an invitation to complete the IPL application digitally.
 
-If the borrower's application is approved, he will receive a loan from Sky Lending that goes directly toward their Infinity Finance Debt Resolution Program to settle their remaining debts. The borrower
-then owes Sky Lending as opposed to owing creditors.
+The new loan application funnel integrates with multiple external systems and must be flexible to be resumed by representatives via phone (DataCapture360). Once approved, the loan goes directly to the user’s debt account, accelerating the resolution from 3–4 years down to 2–3 months.
 
-Having these funds from Sky Lending allows for Infinity Finance to negotiate better terms with the lenders and creditors that the borrower owes money to, allowing him to achieve debt resolution in 2
-to 3 months, as opposed to 3 to 4 years.
+---
 
-Once the borrower receives the invitation link, he will be able to access the Sky Lending’s funnel landing page that will request information such as an invitation code (this should be pre populated
-from the invitation link), SSN last four digits, and Affiliate Sharing agreement to review and accept. Infinity Finance will validate the invitation code, SSN, and provide the borrowers personal information from their records.
+## 🧱 Functional Structure
 
-Once this code is validated, the borrower will be taken to a form in which he will be able to confirm or edit his Personal Information page (PI1) with fields such as first and last name, address, phone,
-email and password. Before submitting the form, the borrower will have to agree to the E-Sign Consent, the Terms of Use and the Privacy Policy.
+I organized the backlog using the following **5 Epics**:
 
-Once the PI1 form is validated and there are no collisions, the borrower will be taken to the Additional Information Page (PI2) where he will need to fill the following information: DOB, SSN,
-housing status, time at residence, education, employment status, pay frequency, and annual income. Before submitting the form the borrower will need to agree the E-Sign Agreement, Credit
-Authorization Agreement, Terms of Service, and Privacy Policy. The application should disclose that by agreeing and continuing the borrower’s credit score will not be affected.
+### 🔹 Invitation
+- Validation of invitation codes and SSN (last 4 digits)
+- Preloading user data from Infinity Finance
+- Handling expired or invalid invitations
 
-Sky Lending has decided to use the SDG Loan Decisioning Engine to evaluate the borrower and retrieve the available loan offers (up to two) that apply to this particular borrower. Offers will vary in
-payment terms, interest rate, APR, origination fee. In the Offer Page the user will be able to pick the offer that best meets his needs.
+### 🔹 Generate Offer (PI1 + PI2)
+- PI1: Personal Info (name, email, phone, password, T&Cs)
+- PI2: Additional Info (DOB, SSN, housing, income, employment)
+- E-Sign, Privacy Policy, and Consent handling
 
-Also SDG will provide the DataCapture 360 product, that will allow representatives to call and resume an application if a borrower drops the funnel before selecting an offer.
-Also Infinity Finance will provide Sky Lending with a list of selected borrowers to be called by a representative and complete the whole application over the phone.
+### 🔹 Loan Offers
+- Integration with **SDG Loan Decisioning Engine**
+- Displaying up to 2 loan options (APR, term, origination fee)
+- Offer selection and initiation of digital signing (Adobe Sign)
 
-<h2> Deliverables Requested </h2>
+### 🔹 Representatives
+- Integration with **DataCapture360** to resume dropped applications
+- Full phone-based application flow supported by representatives
 
-- Use Cases or Epics to be developed
+### 🔹 Endpoints
+- API interactions grouped by system:
+  - Infinity Finance
+  - SDG Loan Engine
+  - DataCapture360
+  - Adobe Sign
 
-- Define API’s endpoints request/response payloads
+---
 
-- Data Flow Diagram
+## ✅ Sample BDD User Stories
 
-- User Stories to Develop the PI1 or PI2 pages
+### 🟦 US-INV-01 – Invitation Validation
+Given the user received a valid invitation
+And enters the correct SSN last 4 digits
+When they submit the form
+Then the system validates and redirects to PI1
 
+### 🟩 US-PI2-01 – Additional Info Submission
+Given the system retrieved loan options
+When the user selects one
+Then the system initiates signing via Adobe Sign
 
-<h2> Important </h2>
-<a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">Link to the project's backlog in Jira</a>
+### 🟥 US-REP-01 – Resume Application via Phone
+Given the user abandoned the flow
+And the record exists in DataCapture360
+When a representative calls
+Then they can resume from the last saved page
 
+---
 
-User: userforjira@gmail.com
+## 🔗 API Endpoints (Sample Specs)
 
-Password: userforjira
+### 🔹 Infinity Finance
+**`POST /api/invitation/validate`**
 
-<h2> Epics </h2>
+{
+  "invitationCode": "ABC123456",
+  "ssnLast4": "1234"
+}
 
-The epics that I have been created were the following:
+### 🔹 SDG Loan Engine
+**`POST /api/loan/evaluate`**
+{
+  "userId": "uuid-user",
+  "personalInfo": {
+    "dob": "1989-05-10",
+    "ssn": "123456789",
+    "housingStatus": "rent",
+    "income": 54000
+  }
+}
 
-- Invitation (tickets related to the invitation link to the program).
+### 🔹 DataCapture360
+GET /api/application/resume?userId=abc123
 
-- Generate offer (including PI1 and PI2).
+### 🔹 Adobe Sign
+**`POST /api/esign/initiate`**
+{
+  "userId": "uuid-user",
+  "loanOfferId": "offer-001"
+}
 
-- Loan offers.
+---
 
-- Representatives (those tickets related to representatives who call users to help them complete the loan application).
+## 🔄 Application Flow Diagram
+See Reach the Sky Diagram.pdf (attached) for full flow including:
 
-- Endpoints (I divided this epic into 4 parts, depending on who to interact with)
+- Entry point (invitation link)
+- PI1 and PI2 forms
+- Validation checkpoints
+- System interactions
+- Inactivity and recovery via phone
+- Offer selection and signing
 
+---
 
- You will be able to filter the tickets by epic through the Epic panel that is available in the <a href="https://leonardosly.atlassian.net/jira/software/projects/RS/boards/8/backlog">project's backlog</a>.
- 
-<h2> API’s endpoints request/response payloads </h2>
-In the backlog you will find tickets that are called dependencies (it is a type of ticket that indicates that something needs to be developed or a decision is made in order to carry out a user story) and that will represent the different endpoints that are needed.
+## 📦 Sprint Planning
+The backlog was divided into 5 sprints, including one focused solely on PI2 and another on representatives’ support.
+Dependencies and blockers were clearly marked in Jira using labels and links.
+Use cases and API definitions were structured as "dependency" tickets to ensure sequencing and readiness.
 
-There are 2 ways to filter and view these tickets:
+---
 
-- Selecting the epics that were mentioned in the previous point.
+## ✅ Impact
+This structure enabled the engineering team to start development with confidence and clarity:
 
-- Use the "Label" filter in the backlog.
+- Clear story mapping and system boundaries
+- Validations, edge cases, and consents documented
+- Business logic decoupled from technical constraints
+- Visibility across QA, legal, and design
 
-NOTE: Although there are all the titles of the endpoints that are needed, only the tickets that are within the "Sprint PI2" and "Representatives" were those that I had specified.
+---
 
-<h2> User Stories to Develop the PI1 or PI2 pages </h2>
-The backlog is divided into 5 sprints, of which I developed all the tickets mentioned in the "Sprint PI2". Although RS-13 is the central ticket of said sprint and it is the one that must be developed, the rest of the tickets are marked as dependencies and are blockers of the aforementioned story.
-
-<h2> Data Flow Diagram </h2>
-You will be able to find this diagram in the files attached to this project. I represented not only user activities but also system actions and the relationship with each of the endpoints.
+## 📬 Contact
+Want to learn more or request a portfolio walkthrough?
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/slyleonardo/) or reach out!
