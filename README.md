@@ -2,10 +2,7 @@
 
 <h3> 👨🏻‍💻 &nbsp;About Me </h3>
 
-- 🤔 &nbsp; I am Leo, a Scrum Master and Lead Business Analyst based on Buenos Aires - Argentina, who has the experience and ability to perform other roles such as Product Owner, Project Manager, BI and Quality Assurance Analyst.
-- 🎓 &nbsp; I have a BS in Information and Communication Technologies for Education from the National University of Lanus, a specialization in usability and accessibility, and a Senior Technician in Computer Systems from National Technological University.
-- 💼 &nbsp; Working as a Lead Business Analyst and Scrum Master in Verifarma (https://www.verifarma.com/en/).
-- 🌱 &nbsp; Learning more about Business Intelligence.
+I’m Leonardo Maximiliano Sly Ledesma, a Scrum Master with over 6 years of experience guiding agile teams to achieve high performance and deliver meaningful value. I specialize in facilitating purposeful Scrum ceremonies, removing blockers, fostering continuous improvement, and encouraging team autonomy. My approach centers on strong collaboration, product-oriented thinking, and aligning delivery outcomes with business objectives.
 
 <h3> Skills</h3>
 
@@ -50,8 +47,6 @@
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
 <p align="left">
-<a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" width="42" height="42"></a>
-<a href="mailto:leonardo.sly@hotmail.com"><img alt="Email" src="https://i2.wp.com/outlawq8.com/blog/wp-content/uploads/2012/08/outlook_logo.jpg" width="42" height="42"></a>
+<a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://imgs.search.brave.com/wbcWsku_qCR_yuxwaHpDm0P97GK4wPnlwlmZ1wVf_TQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8yNjczLzI2NzM3/NzcucG5nP3NlbXQ9/YWlzX2h5YnJpZA" width="42" height="42"></a>
+<a href="mailto:leonardo.m.sly@hotmail.com"><img alt="Email" src="https://imgs.search.brave.com/VnAVHyy5HsyYhhHzUB7zC-o3EVEyoh_-t12oVNT8WpU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni84ODgvODg4ODUz/LnBuZz9zZW10PWFp/c19oeWJyaWQ" width="42" height="42"></a>
 </p>
-
-<img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/Mythe_15.png">
