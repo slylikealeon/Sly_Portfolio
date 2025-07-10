@@ -1,7 +1,7 @@
 # Post-Reorganization Squad Integration & Agile Delivery Strategy
 
 **Role:** Scrum Master  
-**Company:** [Confidential / Internal Simulation / Hiring Assessment]  
+**Company:** Huxley  
 **Industry:** Technology / Agile Transformation  
 **Scope:** Build cohesion in a newly formed cross-functional squad after organizational restructuring, support delivery, and enable sustainable team practices  
 **Key Deliverables:** Team Launch Framework, Knowledge Sharing System, Story Mapping & Scope Refinement, Work Rhythm Design, Stakeholder Reporting  
