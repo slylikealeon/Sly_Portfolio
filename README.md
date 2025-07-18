@@ -135,5 +135,5 @@ For enterprise environments:
 
 <p align="left">
 <a href="https://www.linkedin.com/in/slyleonardo/"><img alt="LinkedIn" src="https://imgs.search.brave.com/wbcWsku_qCR_yuxwaHpDm0P97GK4wPnlwlmZ1wVf_TQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8yNjczLzI2NzM3/NzcucG5nP3NlbXQ9/YWlzX2h5YnJpZA" width="42" height="42"></a>
-<a href="mailto:leonardo.m.sly@hotmail.com"><img alt="Email" src="https://imgs.search.brave.com/VnAVHyy5HsyYhhHzUB7zC-o3EVEyoh_-t12oVNT8WpU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni84ODgvODg4ODUz/LnBuZz9zZW10PWFp/c19oeWJyaWQ" width="42" height="42"></a>
+<a href="mailto:leonardo.m.sly@gmail.com"><img alt="Email" src="https://imgs.search.brave.com/VnAVHyy5HsyYhhHzUB7zC-o3EVEyoh_-t12oVNT8WpU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni84ODgvODg4ODUz/LnBuZz9zZW10PWFp/c19oeWJyaWQ" width="42" height="42"></a>
 </p>
