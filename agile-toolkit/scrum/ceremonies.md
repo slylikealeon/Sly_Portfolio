@@ -1,4 +1,4 @@
-# 🕒 Scrum Meeting Rhythm
+# 🕒 Scrum ceremonies
 
 As a Scrum Master, one of my key responsibilities is to design and support a meeting cadence that promotes alignment, focus, and sustainable delivery — without overloading the team. Below is the structure I typically use with Scrum teams, along with the purpose, timing, and tips for each event.
 
