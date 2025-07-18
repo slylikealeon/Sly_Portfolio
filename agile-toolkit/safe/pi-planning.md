@@ -1,43 +1,95 @@
-# 📅 Program Increment (PI) Planning – Enabling Alignment at Scale
+# 📅 PI Planning – Facilitating Alignment at Scale
 
-**PI Planning** is a cornerstone of the SAFe framework. It brings together multiple teams, stakeholders, and leadership to align around a shared vision, establish sprint-level commitments, and uncover risks and dependencies across the Agile Release Train (ART).
+Program Increment (PI) Planning is the heartbeat of SAFe. It’s where strategy meets execution. As a Scrum Master, I play an active role in preparing, facilitating, and supporting teams through this critical event.
 
-As a Scrum Master, my role is to facilitate the preparation and execution of PI Planning, ensuring that teams enter with clarity and leave with confidence.
-
----
-
-## 🎯 Objectives of PI Planning
-
-- Align teams to a shared vision and prioritized backlog
-- Commit to Sprint (Iteration) goals for the next 8–12 weeks
-- Visualize and plan around cross-team dependencies
-- Identify, surface, and resolve delivery risks
-- Strengthen collaboration between business and tech
+This document outlines how I approach PI Planning in scaled agile environments.
 
 ---
 
-## 🧾 Pre-PI Preparation
+## 🧭 My Role Before, During & After PI Planning
 
-I support preparation at multiple levels:
-
-### With Product Owners:
-- Refine Features for upcoming PI with clear acceptance criteria
-- Split large features across teams (if needed)
-- Prioritize Features using WSJF or business value
-- Ensure Definition of Ready (DoR) is met for critical items
-
-### With Teams:
-- Review current capacity (team velocity, time-off, other commitments)
-- Surface known technical dependencies or external blockers
-- Ensure each team has a stable backlog for estimation and planning
-
-### With Stakeholders:
-- Clarify business goals and success metrics for the PI
-- Identify high-level risks and alignment topics in advance
+| Phase          | What I Do                                                         |
+|----------------|-------------------------------------------------------------------|
+| **Before**     | Prepare the team, stories, and context for confident planning     |
+| **During**     | Facilitate participation, manage risks and dependencies           |
+| **After**      | Support commitment, follow-up, and ensure execution starts strong |
 
 ---
 
-## 🛠️ Tools I Use
+## 📌 Preparation Phase (Before PI Planning)
 
-- **Jira (Advanced Roadmaps)** – for feature tracking, sprint mapping, dependencies
-- **Miro** – for digital PI boards, team
+### 🔹 1. Backlog Readiness
+- Work with the PO to ensure high-priority features are broken into refined stories
+- Validate stories meet Definition of Ready (DoR)
+- Ensure dependencies are identified and documented
+- Tag relevant stories by Feature, Epic, and ART-level initiative
+
+### 🔹 2. Team Alignment
+- Host pre-PI syncs to clarify business goals
+- Share the PI Objectives draft early
+- Review capacity planning (days off, team velocity, special events)
+
+### 🔹 3. Tooling Setup
+- Miro (or physical board) with team areas and feature swimlanes
+- Jira boards pre-configured by sprint
+- Dependency visualization (color-coded or mapped on a shared layer)
+
+---
+
+## 🏁 Execution Phase (During PI Planning)
+
+### 🔹 1. Day 1 – Draft Planning
+- Ensure team understands Feature context
+- Facilitate breakout sessions (story estimation, capacity fit, sequencing)
+- Visualize draft sprint plans on board (1–5 sprints)
+- Surface cross-team dependencies and raise risks
+
+### 🔹 2. Day 2 – Confidence Building
+- Support in finalizing PI Objectives
+- Facilitate the **ROAM** board:
+  - **R**esolved
+  - **O**wned
+  - **A**ccepted
+  - **M**itigated
+- Run or support the **Confidence Vote**
+- Coach teams on realistic commitments, not aspirational lists
+
+---
+
+## 🎯 Outputs of a Good PI Planning
+
+- Committed **PI Objectives**, aligned with business priorities
+- Defined stories distributed across 4–6 sprints
+- Cross-team dependencies mapped and acknowledged
+- Capacity allocation for:
+  - Enablers
+  - Maintenance
+  - Innovation / IP sprint
+- Shared visibility via roadmap (Jira, Miro, Confluence)
+
+---
+
+## 📊 Tools I Use
+
+- **Jira (Advanced Roadmaps):** To link Features → Stories → Sprints
+- **Miro:** Interactive board for visual planning and dependency tracking
+- **Confluence:** PI Objective documentation and post-PI follow-up
+- **Power BI / Jira Dashboards:** Track progress against PI commitments
+
+---
+
+## 🧠 Best Practices I Promote
+
+| Practice                          | Why It Matters                                              |
+|----------------------------------|--------------------------------------------------------------|
+| Story readiness review before PI | Prevents wasted planning time                                |
+| Visual planning boards           | Improves understanding of interdependencies                  |
+| Team-led planning (not top-down) | Builds ownership and realistic forecasts                     |
+| Business participation           | Ensures alignment with real value streams and needs          |
+| Inspect & Adapt follow-up        | Turns learnings into real change before next increment       |
+
+---
+
+## ✅ Final Thought
+
+PI Planning isn’t just about filling sprints — it’s about creating **shared commitment**. My goal is to make it inclusive, realistic, and actionable. When done well, it gives every team member a clear direction and every stakeholder peace of mind.
